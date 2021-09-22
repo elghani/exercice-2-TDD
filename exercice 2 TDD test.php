@@ -1,0 +1,10 @@
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-surefire-plugin</artifactId>
+<version>3.0.0-M3</version>
+<configuration>
+<includes>
+<include>**/*test</include>
+</includes>
+</configuration>
+</plugin>
